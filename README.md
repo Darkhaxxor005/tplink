@@ -43,7 +43,7 @@ pip install pycryptodome
 git clone https://github.com/ITSN0B1T4/tplink
 cd tplink
 chmod +x tpdec.py
-python w8tpconf_bin_xml.py [path] [output].xml
+python tpdec.py [path] [output].xml
 ````
 
 ###Thanks
