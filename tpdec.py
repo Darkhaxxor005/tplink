@@ -2,12 +2,11 @@
 #Modified By Mohammad Alamin
 #No need modification 
 
-import argparse
+import argparse, os
 from hashlib import md5
 from os import path
 import re
 from struct import pack, pack_into, unpack_from
-
 from Cryptodome.Cipher import DES # apt install python3-pycryptodome (OR: pip install pycryptodomex)
 
 __version__ = '0.1.0'
